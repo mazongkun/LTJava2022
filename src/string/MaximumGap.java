@@ -1,3 +1,7 @@
+package string;
+
+import utils.Utils;
+
 import java.util.Arrays;
 
 /**
@@ -18,7 +22,7 @@ public class MaximumGap {
             return 0;
         }
 //         快排较慢，耗时与内存都胜5%
-//        Utils.qSort(nums, 0, len - 1);
+//        utils.Utils.qSort(nums, 0, len - 1);
         // 基数排序
         Utils.radixSort(nums);
 
